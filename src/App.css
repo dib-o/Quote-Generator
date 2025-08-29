@@ -10,10 +10,12 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
+    color: black;
 }
 
-#html {
+body {
     min-height: 100vh;
+    width: 100%;
     height: auto;
     font-size: 62.5%;
     overflow-x: hidden;
@@ -25,6 +27,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: black;
 }
 
 header {
@@ -36,6 +39,7 @@ header {
     justify-content: center;
     align-items: center;
     background: transparent;
+    text-align: center;
 }
 
 header h1 {
