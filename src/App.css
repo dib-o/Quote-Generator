@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap');
+@import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+#html {
+    min-height: 100vh;
+    height: auto;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("src/imgs/home6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+header h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+    font-weight: 500;
+}
+
+#home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quotes-container {
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#quote-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#quote-container p {
+    font-size: 2.5rem;
+    font-family: "Amatic SC", sans-serif;
+    animation: float 3s ease-in-out infinite;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#author-container {
+    width: 80%;
+}
+
+#author-container p {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px white;
+    text-align: center;
+}
+
+#search-container input {
+    display: block;
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    background: transparent;
+    font-size: .8rem;
+    border-bottom: .1rem solid black;
+    text-transform: uppercase;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+#button-container button {
+    margin-top: 2rem;
+    padding: .5rem;
+    display: block;
+    width: auto;
+    height: auto;
+    text-transform: uppercase;
+    font-size: .8rem;
+    border-radius: .5rem;
+    background: transparent;
+    border: .1rem solid black;
+    white-space: pre-wrap;
+    box-shadow: 2px 2px 5px black;
+}
+
+#list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8%;
+    margin-top: 1rem;
+    height: auto;
+    padding: 1rem;
+}
+
+#list-container #select-container {
+    margin: 1rem auto;
+}
+
+#list-container #select-container #select-button {
+    background: transparent;
+    border: 1px solid black;
+    padding: .5rem;
+    width: 4.5rem;
+}
+
+#list-container #list-names {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+#list-container #list-names button {
+    background: transparent;
+    border: 1px solid black;
+    padding: .5rem;
+    
+}
+
+#list-container #list-names button.active {
+    box-shadow: 2px 2px 5px black;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 650px) {
+    #quote-container {
+        width: 80%;
+    }
+
+    #quote-container p {
+        font-size: 2rem;
+    }
+}
