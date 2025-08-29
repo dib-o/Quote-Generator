@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://github.com/dib-o/Quote-Generator/",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",

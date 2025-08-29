@@ -21,7 +21,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("src/imgs/home6.jpg");
+    background-image: url("/src/imgs/home6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
