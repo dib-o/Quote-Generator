@@ -42,6 +42,7 @@ import Henry_David_Thoreau from "./data/Henry_David_Thoreau.json";
 import Movies from "./data/Movies.json";
 import Anime from "./data/Anime.json";
 
+
 const App = () => {
   const authors = [
     "Walt Disney",
