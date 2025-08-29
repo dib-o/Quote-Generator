@@ -170,6 +170,10 @@ header h1 {
     box-shadow: 2px 2px 5px black;
 }
 
+button:focus {
+    outline: none;
+}
+
 @keyframes float {
   0% {
     transform: translateY(0px);
